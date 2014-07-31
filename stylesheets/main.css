@@ -1,0 +1,267 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "responsivenav";
+  src: url("../images/responsivenav.eot");
+  src: url("../images/responsivenav.eot?#iefix") format("embedded-opentype"), url("../images/responsivenav.ttf") format("truetype"), url("../images/responsivenav.woff") format("woff"), url("../images/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../sass/_nav.scss */
+#bloomberg {
+  display: inline-block;
+  max-width: 70%;
+  max-height: 5%;
+}
+
+/* line 18, ../sass/_nav.scss */
+#header-social {
+  display: inline-block;
+  float: right;
+}
+
+/* line 23, ../sass/_nav.scss */
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+/* line 32, ../sass/_nav.scss */
+.nav-collapse {
+  margin: 0;
+  width: 970px;
+}
+/* line 36, ../sass/_nav.scss */
+.nav-collapse br {
+  display: none;
+}
+/* line 40, ../sass/_nav.scss */
+.nav-collapse ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  text-align: center;
+}
+/* line 48, ../sass/_nav.scss */
+.nav-collapse ul a {
+  color: white;
+  font-family: 'BWHaasRegular';
+  font-size: 1em;
+}
+/* line 54, ../sass/_nav.scss */
+.nav-collapse ul li {
+  width: 9%;
+  height: 35px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* line 67, ../sass/_nav.scss */
+#social-tab {
+  height: 55px;
+  display: none;
+}
+
+/* line 71, ../sass/_nav.scss */
+.social-nav {
+  height: 45px;
+  margin-right: 2em;
+}
+
+/* line 78, ../sass/_nav.scss */
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+/* line 82, ../sass/_nav.scss */
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+/* line 86, ../sass/_nav.scss */
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+/* line 95, ../sass/_nav.scss */
+.nav-toggle:before {
+  color: #f4421a;
+  /* Edit this to change the icon color */
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 40px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: right;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 1%;
+  left: -5%;
+}
+
+/* line 115, ../sass/_nav.scss */
+#global {
+  background: #0072bc;
+}
+
+/* line 116, ../sass/_nav.scss */
+#companies {
+  background: #88307f;
+}
+
+/* line 117, ../sass/_nav.scss */
+#politics {
+  background: #00aaad;
+}
+
+/* line 118, ../sass/_nav.scss */
+#tech {
+  background: #ed1c24;
+}
+
+/* line 119, ../sass/_nav.scss */
+#markets {
+  background: #8dc63f;
+}
+
+/* line 120, ../sass/_nav.scss */
+#innovation {
+  background: #c8215d;
+}
+
+/* line 121, ../sass/_nav.scss */
+#life {
+  background: #faa61a;
+}
+
+/* line 122, ../sass/_nav.scss */
+#b-school {
+  background: #20409a;
+}
+
+/* line 123, ../sass/_nav.scss */
+#small-biz {
+  background: #6b7b84;
+}
+
+/* line 124, ../sass/_nav.scss */
+#video {
+  background: #f26522;
+}
+
+@media (max-width: 1024px) {
+  /* line 3, ../sass/_media.scss */
+  #social-tab {
+    display: block;
+  }
+
+  /* line 7, ../sass/_media.scss */
+  #header-social {
+    display: none;
+  }
+
+  /* line 12, ../sass/_media.scss */
+  .nav-collapse li {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 23, ../sass/_media.scss */
+  .js .nav-collapse {
+    position: relative;
+  }
+
+  /* line 26, ../sass/_media.scss */
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+
+  /* line 29, ../sass/_media.scss */
+  .nav-toggle {
+    display: none;
+  }
+}
+/* BBW WEBFONT DEFINITIONS */
+@font-face {
+  font-family: 'BloombergLBold';
+  src: url("http://www.businessweek.com/assets/type/bloombergl_heavy.eot?#iefix") format("embedded-opentype"), url("http://www.businessweek.com/assets/type/bloombergl_heavy.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasHead';
+  src: url("http://www.businessweek.com/assets/type/hinted/haas/bwhaasgroteskhead-95black.eot?#iefix") format("eot"), url("http://www.businessweek.com/assets/type/hinted/haas/bwhaasgroteskhead-95black.woff") format("woff"), url("http://www.businessweek.com/assets/type/haas/bwhaasgroteskhead-95black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasHead75Bold';
+  src: url("http://www.businessweek.com/assets/type/hinted/haas75/bwhaasgroteskhead-75bold.eot?#iefix") format("eot"), url("http://www.businessweek.com/assets/type/hinted/haas75/bwhaasgroteskhead-75bold.woff") format("woff"), url("http://www.businessweek.com/assets/type/haas75/bwhaasgrotesktext-75bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'BWHaasRegular';
+  src: url("http://www.businessweek.com/assets/web_fonts/bwhaasgroteskhead-65medium.eot?#iefix") format("eot"), url("http://www.businessweek.com/assets/web_fonts/bwhaasgroteskhead-65medium.woff") format("woff"), url("http://www.businessweek.com/assets/web_fonts/bwhaasgrotesktext-65medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+/* DRUK! */
+/* Druk Medium */
+@font-face {
+  font-family: 'Druk Web';
+  src: url("Druk-Medium-Web.eot");
+  src: url("Druk-Medium-Web.eot?#iefix") format("embedded-opentype"), url("Druk-Medium-Web.woff") format("woff"), url("Druk-Medium-Web.ttf") format("truetype"), url("Druk-Medium-Web.svg#Druk Web") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/* Druk Wide Super */
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url("DrukWide-Super-Web.eot");
+  src: url("DrukWide-Super-Web.eot?#iefix") format("embedded-opentype"), url("DrukWide-Super-Web.woff") format("woff"), url("DrukWide-Super-Web.ttf") format("truetype"), url("DrukWide-Super-Web.svg#Druk Wide Web") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/* line 70, ../sass/main.scss */
+body {
+  background: white;
+  max-width: 970px;
+}
+
+/* line 75, ../sass/main.scss */
+.container {
+  width: 100%;
+}

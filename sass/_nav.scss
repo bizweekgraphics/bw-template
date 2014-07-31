@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "responsivenav";
+  src:url("../images/responsivenav.eot");
+  src:url("../images/responsivenav.eot?#iefix") format("embedded-opentype"),
+    url("../images/responsivenav.ttf") format("truetype"),
+    url("../images/responsivenav.woff") format("woff"),
+    url("../images/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#bloomberg {
+  display: inline-block;
+  max-width: 70%;
+  max-height: 5%
+}
+
+#header-social {
+  display: inline-block;
+  float: right;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse {
+  margin: 0;
+  width: 970px;
+
+  br {
+    display: none
+  }
+
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: block;
+    list-style: none;
+    text-align: center;
+
+    a {
+      color: white;
+      font-family: 'BWHaasRegular';
+      font-size: 1em;
+    }
+
+    li {
+      width: 9%;
+      height: 35px;
+      padding: 5px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+    }
+  }
+}
+
+
+
+#social-tab {
+  height: 55px;
+  display: none;
+}
+.social-nav {
+  height: 45px;
+  margin-right: 2em;
+}
+
+
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  &:before {
+    color: #f4421a; /* Edit this to change the icon color */
+    font-family: "responsivenav", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 40px;
+    text-transform: none;
+    position: absolute;
+    content: "≡";
+    text-indent: 0;
+    text-align: right;
+    line-height: 55px;
+    speak: none;
+    width: 100%;
+    top: 1%;
+    left: -5%;
+  }
+}
+
+#global {background: #0072bc}
+#companies {background: #88307f}
+#politics {background: #00aaad}
+#tech {background: #ed1c24}
+#markets {background: #8dc63f}
+#innovation {background: #c8215d}
+#life {background: #faa61a}
+#b-school {background: #20409a}
+#small-biz {background: #6b7b84}
+#video {background: #f26522}
+
+
+
+
+
+
