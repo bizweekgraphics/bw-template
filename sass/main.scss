@@ -1,76 +1,19 @@
+@import 'fonts';
+@import 'mixins';
 @import 'nav';
-@import 'media';
-
-/* BBW WEBFONT DEFINITIONS */
-
-@font-face {
-  font-family: 'BloombergLBold';
-    src: url("http://www.businessweek.com/assets/type/bloombergl_heavy.eot?#iefix") format('embedded-opentype'),
-       url('http://www.businessweek.com/assets/type/bloombergl_heavy.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-  font-family:'BWHaasHead';
-  src: url('http://www.businessweek.com/assets/type/hinted/haas/bwhaasgroteskhead-95black.eot?#iefix') format('eot'),
-     url('http://www.businessweek.com/assets/type/hinted/haas/bwhaasgroteskhead-95black.woff') format('woff'),
-     url('http://www.businessweek.com/assets/type/haas/bwhaasgroteskhead-95black.ttf') format('truetype');
-
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-}
-@font-face {
-  font-family:'BWHaasHead75Bold';
-  src: url('http://www.businessweek.com/assets/type/hinted/haas75/bwhaasgroteskhead-75bold.eot?#iefix') format('eot'),
-     url('http://www.businessweek.com/assets/type/hinted/haas75/bwhaasgroteskhead-75bold.woff') format('woff'),
-     url('http://www.businessweek.com/assets/type/haas75/bwhaasgrotesktext-75bold.ttf') format('truetype');
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-}
-@font-face {
-  font-family:'BWHaasRegular';
-  src: url('http://www.businessweek.com/assets/web_fonts/bwhaasgroteskhead-65medium.eot?#iefix') format('eot'),
-     url('http://www.businessweek.com/assets/web_fonts/bwhaasgroteskhead-65medium.woff') format('woff'),
-     url('http://www.businessweek.com/assets/web_fonts/bwhaasgrotesktext-65medium.ttf') format('truetype');
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-}
-
-/* DRUK! */
-/* Druk Medium */
-@font-face {
-  font-family: 'Druk Web';
-  src: url('Druk-Medium-Web.eot');
-  src: url('Druk-Medium-Web.eot?#iefix') format('embedded-opentype'),
-     url('Druk-Medium-Web.woff') format('woff'),
-     url('Druk-Medium-Web.ttf') format('truetype'),
-     url('Druk-Medium-Web.svg#Druk Web') format('svg');
-  font-weight:  500;
-  font-style:   normal;
-  font-stretch: normal;
-}
-/* Druk Wide Super */
-@font-face {
-  font-family: 'Druk Wide Web';
-  src: url('DrukWide-Super-Web.eot');
-  src: url('DrukWide-Super-Web.eot?#iefix') format('embedded-opentype'),
-     url('DrukWide-Super-Web.woff') format('woff'),
-     url('DrukWide-Super-Web.ttf') format('truetype'),
-     url('DrukWide-Super-Web.svg#Druk Wide Web') format('svg');
-  font-weight:  900;
-  font-style:   normal;
-  font-stretch: normal;
-}
 
 $container: 970px;
+$base-font-size: 12px;
 
 body {
   background: white;
   max-width: $container;
+  font-size: $base-font-size;
+  padding: 0;
+  margin: 0;
+  line-height: 1.231;
 }
+
 
 .container {
   width: 100%
