@@ -28,6 +28,15 @@ $(document).ready(function() {
       close: function(){}               // Function: Close callback
     });
 
+  // Set up listener for search bar
+  $('.search').keyup(function(e) {
+    if (e.which == 13) {
+      var text = $(e.target).val()
+      var tokens = text.split(' ').join('+')
+      window.location = "http://www.businessweek.com/search?q=" + tokens
+    }
+  })
+
 
 
 

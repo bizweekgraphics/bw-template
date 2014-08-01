@@ -4,6 +4,20 @@
       display: none;
     }
   }
+
+  .search {
+    float: right;
+    clear: both;
+    width: 20%;
+    height: 25px;
+    @include breakpoint(mobile) {
+      display: none;
+    }
+  }
+}
+
+.bloomberg-header {
+  min-height: 100px;
 }
 
 #bloomberg {
